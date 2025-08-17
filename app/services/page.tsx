@@ -31,25 +31,34 @@ const ServicesPage = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="text-center">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-700 to-purple-700 bg-clip-text text-transparent mb-4" data-aos="fade-up">
+            <h2
+              className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-700 to-purple-700 bg-clip-text text-transparent mb-4"
+              data-aos="fade-up"
+            >
               Our Services
             </h2>
 
-            <div className="flex flex-col items-center space-y-1" data-aos="fade-up">
+            <div
+              className="flex flex-col items-center space-y-1"
+              data-aos="fade-up"
+            >
               <div className="w-24 h-1 bg-cyan-400 rounded-full"></div>
               <div className="w-16 h-1 bg-purple-400 rounded-full"></div>
               <div className="w-10 h-1 bg-cyan-300 rounded-full"></div>
             </div>
           </div>
 
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-aos="fade-up">
+          <p
+            className="text-xl text-gray-300 max-w-3xl mx-auto"
+            data-aos="fade-up"
+          >
             We offer comprehensive technology solutions to help your business
             thrive in the digital age
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-           {/* xl:grid-cols-4 gap-8 */}
+          {/* xl:grid-cols-4 gap-8 */}
           {[
             {
               icon: <Code size={48} />,
@@ -200,15 +209,16 @@ const ServicesPage = () => {
                     <p className="text-gray-400 text-center mb-6">
                       {service.description}
                     </p>
-
-                    <div className="flex justify-center">
+                    {/* View Project Button disable */}
+                    {/* <div className="flex justify-center">
                       <Button
                         variant="outline"
                         className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 transform hover:scale-105"
                       >
                         View Project
                       </Button>
-                    </div>
+                    </div> */}
+                    {/* View Project Button disable */}
                   </div>
                 </CardContent>
               </Card>

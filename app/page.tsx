@@ -10,7 +10,7 @@ import Navbar from "./Navbar/page"; // Import the new Navbar component
 export default function SancyTechWebsite() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <Navbar /> {/* Use the Navbar component here */}
+      {/* <Navbar /> Use the Navbar component here */}
       <HeroPage />
       <AboutPage />
       <ServicesPage />

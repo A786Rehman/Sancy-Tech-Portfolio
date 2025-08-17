@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Navbar from './Navbar/page'
 
 export const metadata: Metadata = {
   title: 'Sancy Tech',
@@ -17,7 +18,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.jpg" className='rounded-full'/>
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar/>
+        {children}</body>
     </html>
   )
 }

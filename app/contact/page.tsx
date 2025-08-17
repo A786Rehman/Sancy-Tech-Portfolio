@@ -56,15 +56,15 @@ const ContactPage = () => {
 
             <Card className="bg-slate-900/50 border-slate-700">
               <CardContent className="p-6">
-                <form action="https://formspree.io/f/xyzkdrbk" method="POST" className="space-y-4">
+                <form action="https://formspree.io/f/xzzvqeak" method="POST" className="space-y-4">
               {/* Redirect after submission */}
-              <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
+              <input type="hidden" name="_next" value="https://sancy-tech-portfolio.vercel.app/" />
                   <div>
                     <Input
                       id="name"
                       name="name"
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="Sancytech"
                       className="bg-slate-800 border-slate-600 text-white placeholder-gray-400 focus:border-cyan-400"
                     />
                   </div>
